@@ -9,7 +9,7 @@
   </div>
   <div class="form-group">
     <label>Body</label>
-    <textarea class="form-control" name="body" placeholder="Add Body"></textarea>
+    <textarea id="editor1" rows="10" cols="80" class="form-control" name="body" placeholder="Add Body"></textarea>
   </div>
   
   <button type="submit" class="btn btn-danger">Submit</button>

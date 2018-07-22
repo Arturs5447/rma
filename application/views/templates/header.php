@@ -5,23 +5,23 @@
 	<title>RMA</title>
 	<!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/minty/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/superhero/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+
+	<script src="http://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
 </head>
 <body>
 	
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 	<div class="container">
-		<div class="navbar-header">
 			<a href="<?php echo base_url(); ?>" class="navbar-brand">RMA</a>
-		</div>
-		<div id="navbar">
-			<ul class="nav navbar-nav">
-				<li><a href="<?php echo base_url(); ?>">Home</a></li>
-				<li><a href="<?php echo base_url(); ?>about">About</a></li>
-				<li><a href="<?php echo base_url(); ?>posts">Blog</a></li>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>about">About</a></li>
+				<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>posts">Blog</a></li>
+				<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>posts/create">Create Post</a></li>
 
 			</ul>
-		</div>
 	</div>
 </nav>
 

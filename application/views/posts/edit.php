@@ -10,8 +10,11 @@
   </div>
   <div class="form-group">
     <label>Body</label>
-    <textarea class="form-control" name="body" placeholder="Add Body"><?php echo $post['body']; ?></textarea>
+    <textarea id="editor1" rows="10" cols="80" class="form-control" name="body" placeholder="Add Body"><?php echo $post['body']; ?></textarea>
+     
   </div>
   
   <button type="submit" class="btn btn-danger">Submit</button>
 </form>
+
+
